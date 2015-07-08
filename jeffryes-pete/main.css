@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -81,10 +81,10 @@ header {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 100%;
-	
 
 
- 
+
+
 }
 
 h1 {
@@ -117,7 +117,6 @@ nav li {
 }
 
 nav a {
-
 	text-decoration: none;
 	color: #333;
 	text-shadow: 0px 0px 8px #bbb;
@@ -125,7 +124,6 @@ nav a {
 }
 
 nav a:hover {
-
 	opacity: 0.4;
 
 }
@@ -153,7 +151,6 @@ header {
 /*************************** Main Content ***/
 
 .maincontent {
-
 	text-align: center;
 	display: inline-block;
 	max-width: 100%;
@@ -162,12 +159,6 @@ header {
 
 
 .mainbox ul {
-/*	margin-left: 1%;
-	margin-right: 1%;
-	max-width: 98%;
-	display: inline-block;
-	text-align: center;
-	vertical-align: middle;*/
 	list-style-type: none;
 	padding: 0;
 
@@ -176,12 +167,8 @@ header {
 
 
 .mainbox li {
-	/*float: left;*/
 	display: inline-block;
 	min-width: 30%;
-	/*max-width: 40%;*/
-	/*width: 20rem;*/
-	/*height: 20rem;*/
 	margin: 2%;
 	padding: 1%;
 	text-align: center;
@@ -199,10 +186,9 @@ header {
 
 p  {
 	font-size: 2.1em;
-	/*margin-top: 0.2em;*/
 	display: inline-block;
 	vertical-align: middle;
-	float: left;	
+	float: left;
 }
 
 
@@ -229,19 +215,11 @@ p  {
 	background: linear-gradient(
 				rgba(160,160,160, 0.95),
 				rgba(160,160,160, 0.95)
-				), 
-				url(images/static.gif);	
+				),
+				url(images/static.gif);
 	box-shadow: 10px 10px 5px #555;
 	border-radius: 2em;
 	color: white;
 
 
 }
-
-
-
-
-
-
-
-
